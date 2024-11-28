@@ -1,0 +1,33 @@
+.main{
+    border: 5px solid rgb(17, 3, 3);
+    width: 450px;
+    height: 650px;
+    background-color: rgb(83, 78, 78);
+   padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);      
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  gap: 10px;
+  column-gap: 10px;
+  border-radius: 30px;
+ 
+ }
+ .a1 {
+   grid-column:1/5;
+    
+ }
+ .main div{
+    background-color: rgb(171, 176, 181);
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .a1 h2{
+    text-align: end;
+ }
+ .a2 h2{
+    color: red;
+ }
+ .a3,.a4,.a9,.a5,.a13,.a17,.a21 h2{
+    color: green;
+ }
